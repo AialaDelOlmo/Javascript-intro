@@ -31,6 +31,10 @@ const finctionalCharacter = {
     }
 }
 
-finctionalCharacter.messageWithTraditionaFunction('With reat power comes great responsability.');
-finctionalCharacter.messageWithArrowFunction('Beware of Doctor Octopus.');
+finctionalCharacter.messageWithTraditionaFunction('With rgeat power comes great responsability.');
+// Uncle Ben says: With great power comes great responsability.
 
+
+finctionalCharacter.messageWithArrowFunction('Beware of Doctor Octopus.');
+// undefined says: Beware of Doctor Octopus.
+// Los arrow functions NO detectan el this, es como si no existiera o no fuera este objeto
